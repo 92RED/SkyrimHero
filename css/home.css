@@ -1,0 +1,81 @@
+/* 
+ * Skyrimhero.com Home CSS File
+ * SkyrimHero (c) 2012 
+ * The Elder Scrolls V: Skyrim (c) Bethesda Softworks
+ */
+div#homepage {
+	max-width: 960px;
+	margin: 5% auto;
+	background: rgba(0,0,0,0.8);
+	padding: 15px 0;
+}
+
+div.home-content {
+	width: 460px;
+	margin: 10px auto 5px auto;
+	padding: 0 0 5px 0;
+}
+
+div#homepage > footer {
+	margin-top: 10px;
+}
+
+div#intro {
+	max-width: 600px;
+	margin: 10px auto;
+}
+div#intro h1, div#intro h2 {
+	cursor: default;	
+}
+
+div#intro h1 {
+	margin: 15px 0;
+	padding: 5px;
+	background: gold;
+	font-weight: 300;
+	color: #111;
+	display: inline-block;
+}
+
+div#intro h2 {
+	margin: 15px 0;
+	padding: 5px;
+	background: orange;
+	font-weight: 300;
+	color: #111;
+	display: inline-block;
+}
+
+div#intro-navigation a {
+	display: inline-block;
+	padding: 5px;
+	margin: 10px 2px;
+	text-decoration: none;
+	background: #222;
+	color: whitesmoke;
+}
+
+div#intro-navigation a:first-child {
+	margin-left: 0;
+}
+
+div#intro-navigation a:hover {
+	background: gold;
+	color: #111;
+}
+
+div#intro-message {
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+div#intro-message p {
+	display: inline-block;
+	padding: 7px;
+	background: #111;
+	color: whitesmoke;
+}
+
+div#intro-search {
+	background: url(../images/intro-search.png) repeat-x;
+}

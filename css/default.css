@@ -1,0 +1,548 @@
+﻿/* 
+ * Skyrimhero.com CSS File
+ * SkyrimHero (c) 2012 
+ * The Elder Scrolls V: Skyrim (c) Bethesda Softworks
+ */
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+::selection {
+	background: white;
+	color: black;
+}
+
+.skyrimdata {
+	background: url(../images/bg.jpg) no-repeat center  top black;
+	background-attachment: fixed;
+	color: whitesmoke;
+	font: 13px/1.25 Arial, sans-serif;
+}
+
+#loading {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	background: url(../images/loading.gif) no-repeat center #111;
+	border-radius: 5px;
+}
+
+#homepage, #page, header, #navigator {
+	opacity: 0;
+}
+
+h1, h2, h3, ul {
+	font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4 {
+	margin: 20px 0 10px;
+}
+h5, p, pre, table, form {
+	margin: 10px 0;
+	text-align: justify;
+}
+
+header {
+	height: 80px;
+	background: rgba(15,15,15,0.8);
+	border-bottom: 1px solid #222;
+}
+
+.title {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.666em;
+}
+
+header h1, header h2, header h3 {
+	font-size: 26px;
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+	font-weight: 300;
+	background: gold;
+	color: #444;
+}
+
+header h2 {
+	background: #333;
+	color: whitesmoke;
+}
+
+header h3 {
+	background: #222;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#navigator {
+	background: rgba(20,20,20,0.95);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+	border-top: 3px solid rgba(30,30,30,0.4);
+	-moz-box-shadow: 0 -15px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 -15px 5px rgba(0,0,0,0.4);
+	box-shadow: 0 -15px 5px rgba(0,0,0,0.4);
+}
+
+.nav_box {
+	max-width: 960px;
+	margin: -3px auto;
+	padding: 10px 0;
+}
+
+.nav_box * {
+	margin: 0;
+	padding: 0;
+}
+
+.nav_box h1 {
+	font-size: 18px;
+	padding: 3px;
+	background: gold;
+	display: inline-block;
+	font-weight: 300;
+	color: black;
+	margin-left: 5px;
+}
+
+.nav_box span {
+	font-size: 11px;
+	padding: 3px;
+	background: black;
+	display: inline-block;
+	font-weight: bold;
+	margin: 0 5px;
+	color: gray;
+}
+
+
+.nav_box a {
+	font-size: 14px;
+	padding: 3px;
+	background: #333;
+	display: inline-block;
+	font-weight: 300;
+	color: whitesmoke;
+	cursor: pointer;
+	text-decoration: none;
+	margin: -15px 3px;
+}
+
+.nav_box a:hover {
+	background: gold;
+	color: black;
+}
+
+nav {
+	width: 10%;
+	float: left;
+	margin: 0 5%;
+}
+
+nav a, nav strong {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	color: gold;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px 0;
+	border-bottom:  1px solid #222;
+	margin: 5% 0;
+}
+
+.returnbtn {
+	color: goldenrod;
+	font-size: 11px;
+}
+
+nav strong {
+	color: white;
+	border-bottom: none;
+	cursor: auto;
+}
+
+footer {
+	max-width: 60%;
+	font-size: 11px;
+	margin: 0 auto 50px auto;
+	color: gray;
+	clear: both;
+	border-top: 1px solid #222;
+}
+
+nav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#page {
+	max-width: 960px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+	padding: 2px 0;
+	min-height: 500px;
+}
+
+article {
+	max-width: 65%;
+	text-align: justify;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+em {
+	font-size: 11px;
+	color: gray;
+}
+
+article ul {
+	list-style: square;
+	color: gold;
+	width: 70%;
+	margin: 5px 5%;
+}
+
+article li {
+	margin: 2% 0;
+}
+
+article h2:first-child, article h1:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+article a, .sykstar {
+	cursor: pointer;
+	border-bottom: 1px dotted gold;
+	color: gold;
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+.sykstar {
+	text-shadow: 0px 1px 3px black;
+}
+
+footer a:first-child {
+	margin-left: 0;
+}
+
+a.sykstar:hover {
+	color: white;
+}
+
+article a:hover {
+	color: white;
+}
+
+td {
+	padding: 1px;
+	font-size: 90%;
+	text-align: center;
+}
+
+hr {
+	max-width: 50%;
+	border: none;
+	border-bottom: 2px dotted #222;
+	margin: 2%;
+}
+
+.tesCalendar {
+	display: inline-block;
+	cursor: help;
+}
+
+
+article h1.intro {
+	display: inline-block;
+	background: gold;
+	padding: 5px;
+	color: #111;
+	font-weight: 300;
+}
+
+article p.intro-text {
+	display: inline-block;
+	width: 100%;
+	background: #222;
+	padding: 7px;
+	line-height: 2em;
+	color: whitesmoke;
+	font-weight: 300;
+	float: left;
+}
+
+div#intro-search{
+	width: 100%;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border-color: #111;
+	background: whitesmoke;
+	float: left;
+	width: 460px;
+}
+
+form.intro-search {
+	margin: 0;
+}
+
+form.intro-search input[type=text] {
+	font-size: 20px;
+	background: none;
+	border: none;
+	width: 100%;
+	height: 30px;
+}
+
+form.intro-search input[type=image] {
+	float: left;
+	margin: -10px 10px;
+}
+
+div.intro-search-field {
+	float: left;
+	width: 90%;
+}
+
+div.intro-search-button {
+	float: left;
+	width: 10%;
+	height: 24px;
+}
+
+div#user_panel {
+	float: right;
+	margin: 25px 0;
+}
+
+div#user_panel a {
+	display: inline-block;
+	background: #333;
+	padding: 5px;
+	text-decoration: none;
+	color: whitesmoke;
+	margin: 0 5px 0 2px;
+}
+
+div#user_panel a:hover {
+	color: #111;
+	background: gold;
+}
+
+div#user_panel a.bugreport:hover {
+	background: orange;
+}
+
+div#content {
+	max-width: 100%;
+	text-align: justify;
+	display: block;
+	margin: 2%;
+}
+
+div#content a {
+	color: gold;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px dotted gold;
+}
+
+div#content a:hover {
+	color: whitesmoke;
+}
+
+div#searchbar {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 5px;
+	height: 45px;
+}
+
+div#searchbar-navigation {
+	width: 640px;
+}
+
+div#searchbar-navigation a {
+	display: inline-block;
+	padding: 10px;
+	margin: 3px 0;
+	float: left;
+	border: none;
+	background: rgba(0,0,0,0.2);
+	font-weight: bold;
+}
+
+div#searchbar-navigation a:hover {
+	background: rgba(0,0,0,0.3)
+}
+div#searchbar-navigation a:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+div#searchbar-navigation a:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+div#pagesearch {
+	width: 320px;
+	background: url(../images/intro-search.png) repeat;
+	padding: 2px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 10px;
+}
+
+div#pagesearch form {
+	margin: 5px;
+}
+
+div#pagesearch form input[type=text] {
+	width: 275px;
+	font-size: 21px;
+	padding-top: 5px;
+	background: transparent;
+	border: none;
+}
+
+div#pagesearch form input[type=image] {
+	width: 31px;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	background: #333;
+	border: 3px solid #222;
+	border-radius: 5px;
+	width: 100%;
+}
+
+table.clickable tr {
+	cursor: pointer;
+}
+
+table#search_results thead {
+	font-weight: bold;
+	background: #333;
+}
+
+table#search_results thead td:first-child {
+	border-left: none;
+}
+
+table#search_results thead td {
+	border-bottom: 1px solid #111;
+	border-left: 1px solid #222;
+}
+
+table#search_results thead td:hover {
+	background: #444;
+	cursor: pointer;
+}
+
+table#search_results thead tr {
+	height: 30px;
+	margin: 5px 0;
+}
+
+table#search_results tbody tr:hover {
+	background: #222;
+}
+
+table#search_results tbody tr {
+	height: 31px;
+	background: #111;
+}
+
+table#search_results tbody td {
+	width: 5px !important;
+}
+
+table#search_results tbody td:first-child {
+	width: 100%;
+}
+
+table#search_results tbody td:last-child {
+	width: 100%;
+}
+
+/* Datatables Customization */
+.dataTables_filter {
+	width: 100%;
+	height: 20px;
+	background: 
+	rgba(0, 0, 0, 0.2);
+	padding: 10px 0;
+	border-radius: 5px;
+	margin-bottom: -12px;
+}
+
+.dataTables_filter label {
+	margin-left: 5px;
+}
+
+.dataTables_filter strong {
+	display: inline-block;
+	margin: 0 15px 0 5px;
+}
+
+.paginate_disabled_previous, .paginate_enabled_previous {
+	margin: 5px;
+}
+
+.paginate_disabled_previous, .paginate_disabled_next {
+	
+	cursor: default;
+	color: #222 !important;
+	border-bottom: none !important;
+}
+
+.paginate_enabled_previous, .paginate_enabled_next {
+	cursor: pointer;
+	background: gold !important;
+	border: none !important;
+	color: #111 !important;
+	padding: 5px !important;
+	margin-top: 5px;
+}
+
+.paginate_enabled_previous:hover, .paginate_enabled_next:hover {
+	cursor: pointer;
+	color: whitesmoke !important;
+	background: #333 !important;
+}
+
+.dataTables_info, .dataTables_info a {
+	color: gray;
+}
+
+.paging_two_button {
+	width: 100%;
+}
+
+.dataTables_empty {
+	padding-top: 9px;
+	color: gray;
+}
